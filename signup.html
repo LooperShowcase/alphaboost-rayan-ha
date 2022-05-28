@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>signup</title>
+  </head>
+  <body>
+  
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="newz.html">news</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="active" href="signup.html">signup</a></li>
+      <li> <img
+        id="sora"
+        src="https://pngrow.com/preview/149307/katie-notopoulos-katienotopoulos-i-write-about-tech-round-profile-placeholder-png"
+        width="10%"
+        />
+        <li id="colorItem">
+          <input id="colorPicker" onchange="changeColor()" type="color">
+        </li>
+    </form></li>
+    </ul>
+
+    <form>
+      <label>Email: </label>
+      <input type="Email" />
+      <br />
+      <label> pasword: </label>
+      <input type="pasword" />
+      <br />
+    </form>
+   
+
+    <script>
+      function changeColor(){
+        var newColor = document.getElementById("colorPicker").value;
+        document.body.style.background = newColor;
+      }
+    </script>
+
+  </body>
+</html>

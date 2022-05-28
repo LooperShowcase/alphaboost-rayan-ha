@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <center>
+    <body>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="newz.html">news</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="signup.html">signup</a></li>
+        <li id="colorItem">
+          <input id="colorPicker" onchange="changeColor()" type="color" />
+        </li>
+      </ul>
+      <h1>bmw</h1>
+      <img
+        src="https://i.pinimg.com/originals/27/6a/97/276a970cd35a83cc71beee75cb89f382.png"
+        width="20%"
+      />
+      <p>
+        Bayerische Motoren Werke AG, commonly referred to as BMW, is a German
+        multinational corporate manufacturer of luxury vehicles and motorcycles
+        headquartered in Munich, Bavaria, Germany. Wikipedia Founded: March 7,
+        1916, Munich, Germany Revenue: 111.2 billion EUR (2021) Headquarters:
+        Munich, Germany Number of employees: 118,909 (2021) Stock price: BMW
+        (ETR) €79.06 +1.03 (+1.32%) 6 May, 17:35 GMT+2 - Disclaimer Owners:
+        Susanne Klatten, Stefan Quandt Founders: Karl Rapp, Franz Josef Popp,
+        Camillo Castiglioni, Gustav Otto Subsidiaries: BMW Motorrad, BMW M, HERE
+        Technologies, MORE
+      </p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/qmqm5FrRN8A?autoplay=1&mute=1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+
+      <script>
+        function changeColor() {
+          var newColor = document.getElementById("colorPicker").value;
+          document.body.style.background = newColor;
+        }
+      </script>
+    </body>
+  </center>
+</html>
